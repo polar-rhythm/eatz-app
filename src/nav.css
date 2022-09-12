@@ -1,8 +1,41 @@
-.navbar-background{
-    background: url(/src/pexels-mat-brown-1395964.jpg);
-    background-size:100% 900px;
-    height: 10em;
-    background-repeat:  no-repeat;
 
-    
+.pic{
+    height: 50vh;
+    width: 100%;
 }
+
+.pat{
+    display: flex;
+    justify-content: center;
+}
+
+.pat h1{
+    position: absolute;
+    font-size: 2em;
+    margin: 1em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    background-color: rgba(255, 0, 0, 0.349);
+    color: white;
+}
+
+.pat button{
+    position: absolute;
+    margin: 2em;
+    margin-top: 6em;
+    background-color: white;
+    border: 0;
+    width: 7em;
+    text-transform: uppercase;
+}
+
+.pat button:hover{
+    background-color: red;
+    color: white;
+}
+
+.pat button:active{
+    font-size: 98%;
+}
+
+

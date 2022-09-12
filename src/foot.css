@@ -1,0 +1,14 @@
+
+
+.down{
+    background: rgb(3, 3, 39);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+
+
+.down li{
+    color: white;
+}
